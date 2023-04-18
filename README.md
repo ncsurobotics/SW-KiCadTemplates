@@ -17,6 +17,7 @@ Template board files for various stackups. Can be imported for other boards.
 - Find the capabilities and stackup info from your PCB manufacturer
 - Create a new kicad project. Delete the schematic. Keep the pcb file.
 - Add the kicad gitignore to the folder of your new template
+- Create a readme in the folder with a more detailed explanation of the template's configuration
 - Edit the pcb file. Open board settings.
 - Board Stackup
     - Generally, do not edit board layers in the "Board Layers Editor"
