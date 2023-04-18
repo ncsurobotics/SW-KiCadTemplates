@@ -18,7 +18,11 @@ Template board files for various stackups. Can be imported for other boards.
 - Create a new kicad project. Delete the schematic. Keep the pcb file.
 - Add the kicad gitignore to the folder of your new template
 - Create a readme in the folder with a more detailed explanation of the template's configuration
+
+<hr />
+
 - Edit the pcb file. Open board settings.
+- NOTE: You can import settings from another template as a starting point if you want
 - Board Stackup
     - Generally, do not edit board layers in the "Board Layers Editor"
     - Physical Stackup
@@ -33,8 +37,12 @@ Template board files for various stackups. Can be imported for other boards.
         - Edit all values to match manufacturer capabilities
         - If not specified by manufacturer, leave defaults
 - Text and Graphics
-    - No changes need to be made. Defaults are fine.
-    - Changes made here should be per-board not template.
+    - Defaults
+        - Change all default sizes based on what makes sense for the board's manufacturing process
+        - If in doubt, use values from the JLCPCB 2 layer 1.6mm board template
+        - Make sure default unit of mils is used
+    - Formatting: No changes
+    - Text Variables: No changes
 - Design Rules
     - Constraints
         - Fill in everything your manufactuerer specifies
