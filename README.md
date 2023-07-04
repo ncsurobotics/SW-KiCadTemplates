@@ -46,4 +46,5 @@ Template board files for various stackups. Can be imported for other boards.
 - Design Rules
     - Constraints
         - Fill in everything your manufactuerer specifies
+    - Make appropriate chances in the default netclass section
     - Make no changes in other sections (that should be per-board not template)
